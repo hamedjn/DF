@@ -1,0 +1,38 @@
+html{
+    background:radial-gradient(rgba(25, 25, 26, 0.85),rgba(32, 32, 32, 0.85)) ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+header {
+    background-color: aliceblue;
+    width: 100%;
+    height: 12rem;
+}
+header a{
+    font-size: 155%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-left: .5rem
+}
+.Büscher{
+    padding-left: 66rem;
+}
+body header p{
+    padding-left: 27rem;
+    font-size: 225%;
+    font-family: Copperplate Gothic Light
+}
+#Niveau{
+    font-family: Copperplate Gothic Light;
+    padding-left: 32rem;
+    font-size: 160%;
+}
+@media(max-width:375px){
+    .Büscher{
+        margin-left: -61rem;
+    }
+    header p{
+        margin-left: -26rem;
+        
+    }
+
+}
