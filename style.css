@@ -17,9 +17,10 @@ header a{
     padding-left: 66rem;
 }
 body header p{
+    font-weight: bold;
     padding-left: 27rem;
     font-size: 225%;
-    font-family: Copperplate Gothic Light
+    font-family: Copperplate Gothic Light;
 }
 #Niveau{
     font-family: Copperplate Gothic Light;
@@ -34,5 +35,16 @@ body header p{
         margin-left: -26rem;
         
     }
+    #Niveau{
+        margin-left: -29rem;
+    }
 
+}
+@media(max-wiedth:395px){
+    body header Büscher{
+        padding-left: 5rem;
+    }
+    header p{
+    margin-left: -26rem;
+    }
 }
