@@ -27,6 +27,22 @@ body header p{
     padding-left: 32rem;
     font-size: 160%;
 }
+@media(max-width:405px){
+    .Büscher{
+        padding-left: 5rem;
+    }
+    header p{
+    margin-left: -25rem;
+    }
+}
+@media(max-width:395px){
+    .Büscher{
+        padding-left: 5rem;
+    }
+    header p{
+    margin-left: -26rem;
+    }
+}
 @media(max-width:375px){
     .Büscher{
         margin-left: -61rem;
@@ -39,12 +55,4 @@ body header p{
         margin-left: -29rem;
     }
 
-}
-@media(max-wiedth:395px){
-    body header Büscher{
-        padding-left: 5rem;
-    }
-    header p{
-    margin-left: -26rem;
-    }
 }
